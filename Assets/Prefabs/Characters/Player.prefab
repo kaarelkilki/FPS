@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 4928378858190208402}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -420,6 +420,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4928378858190208402}
     - target: {fileID: 277632704, guid: 690619117b98dd94caf99422ee2e8297, type: 3}
+      propertyPath: ammoType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 277632704, guid: 690619117b98dd94caf99422ee2e8297, type: 3}
       propertyPath: timeBetweenShots
       value: 0.2
       objectReference: {fileID: 0}
@@ -517,6 +521,10 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 4928378858190208402}
+    - target: {fileID: 277632704, guid: f1fa108c20ae4b44a8aa174fe0f89f34, type: 3}
+      propertyPath: ammoType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 277632704, guid: f1fa108c20ae4b44a8aa174fe0f89f34, type: 3}
       propertyPath: timeBetweenShots
       value: 2
