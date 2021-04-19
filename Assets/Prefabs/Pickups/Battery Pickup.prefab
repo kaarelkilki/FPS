@@ -102,6 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6037801544934046904}
   - component: {fileID: 5310579347341264920}
+  - component: {fileID: -1183174949250424884}
   m_Layer: 0
   m_Name: Battery Pickup
   m_TagString: Untagged
@@ -137,6 +138,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aac4f1166a64bdd469fb1c346bb3cf0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  restoreAngle: 90
+  addIntensity: 1
+--- !u!135 &-1183174949250424884
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8987636878223944254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.0040905
+  m_Center: {x: 0, y: 0.7350786, z: 0}
 --- !u!1001 &6180938183253515419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -178,7 +194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9219428708194452822, guid: 0ceddf4cecd651642872eadfd33d023b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 9219428708194452822, guid: 0ceddf4cecd651642872eadfd33d023b, type: 3}
       propertyPath: m_LocalPosition.y

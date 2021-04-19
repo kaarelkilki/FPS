@@ -27,7 +27,7 @@ public class FlashLightSystem : MonoBehaviour
         myLight.spotAngle = restoreAngle;
     }
 
-    public void RestoreLightIntensity(float restoreIntensity)
+    public void AddLightIntensity(float restoreIntensity)
     {
         myLight.intensity += restoreIntensity;
     }
