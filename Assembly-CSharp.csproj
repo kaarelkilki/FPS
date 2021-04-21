@@ -85,6 +85,7 @@
      <Compile Include="Assets\Asset Packs\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\Utility\ActivateTrigger.cs" />
      <Compile Include="Assets\Scripts\BatteryPickup.cs" />
+     <Compile Include="Assets\Scripts\DisplayDamage.cs" />
      <Compile Include="Assets\Scripts\EnemyAttack.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
@@ -140,7 +141,6 @@
      <Compile Include="Assets\Asset Packs\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\Utility\FOVKick.cs" />
      <Compile Include="Assets\Asset Packs\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
-     <Compile Include="Assets\Scripts\DisplayDamage.cs" />
      <None Include="Assets\Asset Packs\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
